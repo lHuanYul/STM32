@@ -1,9 +1,6 @@
 # Publish folder test01
-> 2020/09/28 by HuanYu
+> 2020/10/04 by HuanYu
 * In HYCodes.c
-    * Timer 1 to try interrupt
-    * Timer 2 to try PWM generation
-    * Main function try GPIO
-    * Init function try setup global variables
-* In HYCodes.h
-    * .h define Music Nodes, extern variables and define boolean
+    * PWM test
+    * Basic motor code
+    
