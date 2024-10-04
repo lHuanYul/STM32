@@ -52,8 +52,7 @@ COM_InitTypeDef BspCOMInit;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
-void HYCodes_Init(void);
-void HYCodes_Main(void);
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/

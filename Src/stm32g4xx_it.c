@@ -47,9 +47,7 @@
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN PFP */
-void HYCodes_ItButtonPC3(void);
-void HYCodes_ItTim1(void);
-void HYCodes_ItTim2(void);
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -240,7 +238,7 @@ void EXTI15_10_IRQHandler(void)
   /* USER CODE END EXTI15_10_IRQn 0 */
   BSP_PB_IRQHandler(BUTTON_USER);
   /* USER CODE BEGIN EXTI15_10_IRQn 1 */
-  HYCodes_ItButtonPC3();
+  HYCodes_ItButtonPC13();
   /* USER CODE END EXTI15_10_IRQn 1 */
 }
 

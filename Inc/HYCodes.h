@@ -6,6 +6,8 @@
   ******************************************************************************
   */
 /* USER CODE END Header */
+/* Includes ------------------------------------------------------------------*/
+#include <stdint.h>
 /* Define --------------------------------------------------------------------*/
 #define APB1_TIM_Clock 170//MHz
 #define APB2_TIM_Clock 170//MHz
@@ -75,6 +77,17 @@
 #define MNoteS_H7 988
 
 /* Global Var ----------------------------------------------------------------*/
-extern int freq;
+extern int frequency;
+extern int duty_ratio;
 extern int timflag;
 extern int test;
+extern int selecter[];
+extern int sheet[];
+
+/* Private function prototypes -----------------------------------------------*/
+void HYCodes_Init(void);
+void HYCodes_Main(void);
+void HYCodes_ItButtonPC3(void);
+void HYCodes_ItTim1(void);
+void HYCodes_ItTim2(void);
+uint16_t Motor(uint16_t input);
